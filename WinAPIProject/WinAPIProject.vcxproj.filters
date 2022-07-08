@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{608a2735-2dd9-4a73-8054-792ef2e34198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{d6987cfb-917f-42ec-8ee3-9254e026edc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. Header">
+      <UniqueIdentifier>{478ee179-e62e-40be-9b7e-fd0b3d7bf9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Core">
+      <UniqueIdentifier>{2578dfce-ac55-4309-b535-6a87ad792add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager">
+      <UniqueIdentifier>{e45ddc9f-7b50-4e3b-8f94-9e9d52114117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object">
+      <UniqueIdentifier>{bda7ce33-6e52-4be5-8509-240907b28ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Scene">
+      <UniqueIdentifier>{78ebc555-81ea-4975-a3cf-6a3a75c42d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Scene\Start">
+      <UniqueIdentifier>{c5ef6f64-ede1-46c8-9c62-0c2c7e602496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Scene\Stage_01">
+      <UniqueIdentifier>{d1a4acbf-c36f-41e8-b875-e361e87f1dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Missile">
+      <UniqueIdentifier>{4c002e11-49b7-4bd5-b1f4-58bf84a48c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Resource">
+      <UniqueIdentifier>{f0412d2d-a205-4ffe-9ec7-a363cca89cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Resource\Sound">
+      <UniqueIdentifier>{95b4edaf-3fd8-4578-aaaf-8da2e9d40b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Resource\Texture">
+      <UniqueIdentifier>{a37b8306-7d3d-44e5-981b-14a8e2a69c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Player">
+      <UniqueIdentifier>{1e598e7e-a453-4ad3-afdb-d7b92c33c561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component">
+      <UniqueIdentifier>{7b3019e6-9603-4f63-84bc-ddb1af77816c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\Animator">
+      <UniqueIdentifier>{cac7a00c-5380-4ed5-b35d-fa0bf51f8fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\Collider">
+      <UniqueIdentifier>{af2f3603-3368-4dff-a916-e3c56eaed2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Scene\Tool">
+      <UniqueIdentifier>{137d454c-df17-4b00-8a0e-1694ab7c3589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Tile">
+      <UniqueIdentifier>{682cdb7c-afc3-4631-ad62-3dc75bab2b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI">
+      <UniqueIdentifier>{f580d9af-49f1-409b-9d3c-d866d414cda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI\PanelUI">
+      <UniqueIdentifier>{cd3a9627-dbcc-40d4-a714-c4b57ee90a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI\UIList">
+      <UniqueIdentifier>{af671ff6-4369-4642-88ae-a8f6d70da83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Objects">
+      <UniqueIdentifier>{24af3dee-0d29-4159-8f73-67f2254d4415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Pokemon">
+      <UniqueIdentifier>{633f7ba7-e71b-4fcf-99cc-ccdddbfbc048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI\UIList\TOOL_UIList">
+      <UniqueIdentifier>{0f0f2918-25b2-4753-a7c8-a176d0f01649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Skill">
+      <UniqueIdentifier>{28d50bda-5761-488f-9db8-7bafd0ab7e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Skill\Skills">
+      <UniqueIdentifier>{7821de7b-9407-43f7-80de-82acc9b00455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI\UIList\BattkeUIList">
+      <UniqueIdentifier>{1270802e-e777-4ea1-ac04-cb967d392150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI\UIList\Swap">
+      <UniqueIdentifier>{0dbb60aa-fc4d-45ce-9956-66592ff5864e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI\Bag">
+      <UniqueIdentifier>{580854ba-a438-42c5-94fa-67d5faaa42cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\UI\Bag\Item">
+      <UniqueIdentifier>{166aba19-a099-4b6b-aea3-f379f721741a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Object\Trainer">
+      <UniqueIdentifier>{6a29d0f4-0a47-482b-b66f-3c82cbb8a996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Scene\OP">
+      <UniqueIdentifier>{3f88b503-0825-4f38-82b5-869c7327bcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Scene\ED">
+      <UniqueIdentifier>{d3c883b6-81f1-4a8d-9570-cb117a48a4fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CCore.h">
+      <Filter>Game\01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>Game\03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Game\04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Game\04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartScene.h">
+      <Filter>Game\04. Scene\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage01Scene.h">
+      <Filter>Game\04. Scene\Stage_01</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>Game\03. Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CRes.h">
+      <Filter>Game\05. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\05. Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Game\05. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Game\03. Object\Trainer</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\06. Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Game\06. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\06. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolScene.h">
+      <Filter>Game\04. Scene\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Game\03. Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\03. Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanelUI.h">
+      <Filter>Game\03. Object\UI\PanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTilePanelUI.h">
+      <Filter>Game\03. Object\UI\PanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapToolUI.h">
+      <Filter>Game\03. Object\UI\PanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseObject.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoor.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeplaceobj.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemonSpawnObj.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CJumpwallObj.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleScene.h">
+      <Filter>Game\04. Scene\Stage_01</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemon.h">
+      <Filter>Game\03. Object\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="C2Tilebutton.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CArrowUI.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoadUI.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveUI.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CTIleColliderOn.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileUI.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIButtonUI.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectUI.h">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer_BattleAni.h">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartmonterball.h">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CTackle.h">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkill.h">
+      <Filter>Game\03. Object\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CThrowPokeball.h">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleChoice.h">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClInclude>
+    <ClInclude Include="COtherBattleState_Bar.h">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerBattleState_Bar.h">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextBar.h">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CSwapmain.h">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemonanim.h">
+      <Filter>Game\03. Object\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="CSwapserve.h">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemonSwap.h">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClInclude>
+    <ClInclude Include="CSwapChange.h">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClInclude>
+    <ClInclude Include="CBag.h">
+      <Filter>Game\03. Object\UI\Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Game\03. Object\UI\Bag\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterball.h">
+      <Filter>Game\03. Object\UI\Bag\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CBagSelect.h">
+      <Filter>Game\03. Object\UI\Bag</Filter>
+    </ClInclude>
+    <ClInclude Include="CTeleportMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CGreen.h">
+      <Filter>Game\03. Object\Trainer</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrainerBattle.h">
+      <Filter>Game\04. Scene\Stage_01</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemonMemberCount.h">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemonballanim.h">
+      <Filter>Game\03. Object\Trainer</Filter>
+    </ClInclude>
+    <ClInclude Include="CEvolutionMgr.h">
+      <Filter>Game\02. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CNurse.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokeball.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CDocter.h">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPsybeam.h">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlamethrower.h">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CHydroPump.h">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CThunder.h">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CVineWhip.h">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="CWingAttack.h">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="COPScene.h">
+      <Filter>Game\04. Scene\OP</Filter>
+    </ClInclude>
+    <ClInclude Include="CEDScene.h">
+      <Filter>Game\04. Scene\ED</Filter>
+    </ClInclude>
+    <ClInclude Include="CEDAnim.h">
+      <Filter>Game\04. Scene\ED</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CCore.cpp">
+      <Filter>Game\01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>Game\03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Game\04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Game\04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartScene.cpp">
+      <Filter>Game\04. Scene\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage01Scene.cpp">
+      <Filter>Game\04. Scene\Stage_01</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>Game\03. Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CRes.cpp">
+      <Filter>Game\05. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\05. Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Game\05. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Game\03. Object\Trainer</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\06. Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Game\06. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\06. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolScene.cpp">
+      <Filter>Game\04. Scene\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Game\03. Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanelUI.cpp">
+      <Filter>Game\03. Object\UI\PanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTilePanelUI.cpp">
+      <Filter>Game\03. Object\UI\PanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapToolUI.cpp">
+      <Filter>Game\03. Object\UI\PanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseObject.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoor.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeplaceobj.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemonSpawnObj.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CJumpwallObj.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\03. Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleScene.cpp">
+      <Filter>Game\04. Scene\Stage_01</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemon.cpp">
+      <Filter>Game\03. Object\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="C2Tilebutton.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CArrowUI.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoadUI.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveUI.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CTIleColliderOn.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileUI.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIButtonUI.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectUI.cpp">
+      <Filter>Game\03. Object\UI\UIList\TOOL_UIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer_BattleAni.cpp">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartmonterball.cpp">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CTackle.cpp">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkill.cpp">
+      <Filter>Game\03. Object\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CThrowPokeball.cpp">
+      <Filter>Game\03. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleChoice.cpp">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClCompile>
+    <ClCompile Include="COtherBattleState_Bar.cpp">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerBattleState_Bar.cpp">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextBar.cpp">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CSwapmain.cpp">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemonanim.cpp">
+      <Filter>Game\03. Object\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="CSwapserve.cpp">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemonSwap.cpp">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClCompile>
+    <ClCompile Include="CSwapChange.cpp">
+      <Filter>Game\03. Object\UI\UIList\Swap</Filter>
+    </ClCompile>
+    <ClCompile Include="CBag.cpp">
+      <Filter>Game\03. Object\UI\Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Game\03. Object\UI\Bag\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterball.cpp">
+      <Filter>Game\03. Object\UI\Bag\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CBagSelect.cpp">
+      <Filter>Game\03. Object\UI\Bag</Filter>
+    </ClCompile>
+    <ClCompile Include="CTeleportMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CGreen.cpp">
+      <Filter>Game\03. Object\Trainer</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrainerBattle.cpp">
+      <Filter>Game\04. Scene\Stage_01</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemonMemberCount.cpp">
+      <Filter>Game\03. Object\UI\UIList\BattkeUIList</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemonballanim.cpp">
+      <Filter>Game\03. Object\Trainer</Filter>
+    </ClCompile>
+    <ClCompile Include="CEvolutionMgr.cpp">
+      <Filter>Game\02. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CNurse.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokeball.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CDocter.cpp">
+      <Filter>Game\03. Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPsybeam.cpp">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlamethrower.cpp">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CHydroPump.cpp">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CThunder.cpp">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CVineWhip.cpp">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="CWingAttack.cpp">
+      <Filter>Game\03. Object\Skill\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="COPScene.cpp">
+      <Filter>Game\04. Scene\OP</Filter>
+    </ClCompile>
+    <ClCompile Include="CEDScene.cpp">
+      <Filter>Game\04. Scene\ED</Filter>
+    </ClCompile>
+    <ClCompile Include="CEDAnim.cpp">
+      <Filter>Game\04. Scene\ED</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinAPIProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WinAPIProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
